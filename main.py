@@ -1,6 +1,7 @@
 """
 🥤 Telegram-бот «Коллекционер вкусов энергетиков» (версия 3: профиль, оценки, языки)
 Стек: Python 3.10+, aiogram 3.x, SQLite (встроен в Python)
+
 ╔══════════════════════════════════════════════════════════════╗
 ║  УСТАНОВКА И ЗАПУСК                                          ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -140,6 +141,7 @@ DEFAULT_CATEGORIES = [
     ("ultra", 3, "cat_default_ultra"),
     ("rehab", 4, "cat_default_rehab"),
     ("java", 5, "cat_default_java"),
+    ("collabs", 6, "cat_default_collabs"),
 ]
 CATEGORY_SLUG_RE = re.compile(r"[a-z0-9_]{1,32}")
 CATALOG_CHUNK = 50   # кнопок в одном сообщении каталога (лимит Telegram — 100)
@@ -214,6 +216,7 @@ ITEMS = [
     (47, "Java Monster Loca Moca", "AgACAgIAAxkBAAPIas3ZwSHYQ1VtEvs0PVqNnPl22WAAAgYiaxu5WmlKzrUCCEoFd4IBAAMCAAN5AAM9BA", "java"),
     (48, "Java Monster Salted Caramel", "AgACAgIAAxkBAAPKas3Z58-ERzn6wneVQ9zEDdb_0PwAAgciaxu5WmlKSxBS-CyOYa8BAAMCAAN5AAM9BA", "java"),
     (49, "Monster Full Throttle Zero Sugar", "AgACAgIAAxkBAAID-GrP54QgqeMnfUjcC6iNuuv0OdEGAAJKIWsbKd2BStNjNEYp4BC3AQADAgADeQADPQQ", "original"),
+    (50, "Monster VR46 The Doctor ", "AgACAgIAAxkBAAIFxWrQvsmryyyyFEOum7p0xFz-D8kqAAI-IGsbKd2JSqQMpWr6aLPsAQADAgADeQADPQQ", "collabs"),
 ]
 
 # ═══════════════════════════════════════════════════════════════
@@ -329,6 +332,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "cat_default_ultra": "Ultra",
         "cat_default_rehab": "Rehab",
         "cat_default_java": "Java",
+        "cat_default_collabs": "Коллаборации"
     },
     # ───────────────────────── Українська ─────────────────────────
     "uk": {
@@ -436,6 +440,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "cat_default_ultra": "Ultra",
         "cat_default_rehab": "Rehab",
         "cat_default_java": "Java",
+        "cat_default_collabs": "Колаборації",
     },
     # ───────────────────────── English ─────────────────────────
     "en": {
@@ -543,6 +548,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "cat_default_ultra": "Ultra",
         "cat_default_rehab": "Rehab",
         "cat_default_java": "Java",
+        "cat_default_collabs": "Collabs",
     },
 }
 
