@@ -227,15 +227,11 @@ ITEMS = [
     (57, "Juiced Monster Mixxd Punch", "AgACAgIAAxkBAAIGGWrRMehxhvHXzl2DQOhjoRG_KyKiAAIiI2sbKd2JSjZ3byVEtiFjAQADAgADeQADPQQ", "juice"),
     (58, "Juiced Monster Ripper", "AgACAgIAAxkBAAIGG2rRMt_uGNe0Q_KHnUVEkNPtS-SsAAIlI2sbKd2JSkT6XfSu2qOjAQADAgADeQADPQQ", "juice"),
     (59, "Rehab Monster Pink Lemonade", "AgACAgIAAxkBAAIGwmrSi2EGWAiXnmCveNSvc8xL6WIsAAIgKGsb5y6QSoMtLsqZO4g2AQADAgADeQADPQQ", "rehab"),
-    (60, "Rehab Monster Protean", "", "rehab"),
-    (61, "Rehab Monster Raspberry Tea", "", "rehab"),
-    (62, "Rehab Monster Rojo Tea", "AgACAgIAAxkBAAIGyWrSjMUoGzO4An_ZwES4e9lLa4vvAAIkKGsb5y6QSpLOniL5S-mwAQADAgADeQADPQQ", "rehab"),
-    (63, "Rehab Monster Strawberry Lemonade", "AgACAgIAAxkBAAIGy2rSjPVpctvijV2E2TFCDVALKZI3AAIlKGsb5y6QSsuF33ph6EJOAQADAgADeQADPQQ", "rehab"),
-    (64, "Rehab Monster Tea Orangeade", "AgACAgIAAxkBAAIG12rSjY2BtKg4Hp7hx-zc-fsiktYyAAImKGsb5y6QSqY4qpZkN8LeAQADAgADeQADPQQ", "rehab"),
-    (65, "Rehab Monster Tea Watermelon", "", "rehab"),
-    (66, "Rehab Monster White Dragon Tea", "", "rehab"),
-    (67, "Monster Nitro Cosmic Peach", "AgACAgIAAxkBAAIG32rSjuHFycqdgDmASa69TyfvU2D_AAIrKGsb5y6QSoS9dZlvSTmrAQADAgADeQADPQQ", "nitro"),
-    (68, "Monster Nitro blue flash", "AgACAgIAAxkBAAIG4WrSjwU5edP7nHi1gnNAu9ffTrhpAAIyKGsb5y6QSi60nKjGjBb_AQADAgADeQADPQQ", "nitro"),
+    (60, "Rehab Monster Rojo Tea", "AgACAgIAAxkBAAIGyWrSjMUoGzO4An_ZwES4e9lLa4vvAAIkKGsb5y6QSpLOniL5S-mwAQADAgADeQADPQQ", "rehab"),
+    (61, "Rehab Monster Strawberry Lemonade", "AgACAgIAAxkBAAIGy2rSjPVpctvijV2E2TFCDVALKZI3AAIlKGsb5y6QSsuF33ph6EJOAQADAgADeQADPQQ", "rehab"),
+    (62, "Rehab Monster Tea Orangeade", "AgACAgIAAxkBAAIG12rSjY2BtKg4Hp7hx-zc-fsiktYyAAImKGsb5y6QSqY4qpZkN8LeAQADAgADeQADPQQ", "rehab"),
+    (63, "Monster Nitro Cosmic Peach", "AgACAgIAAxkBAAIG32rSjuHFycqdgDmASa69TyfvU2D_AAIrKGsb5y6QSoS9dZlvSTmrAQADAgADeQADPQQ", "nitro"),
+    (64, "Monster Nitro blue flash", "AgACAgIAAxkBAAIG4WrSjwU5edP7nHi1gnNAu9ffTrhpAAIyKGsb5y6QSi60nKjGjBb_AQADAgADeQADPQQ", "nitro"),
 ]
 
 # ═══════════════════════════════════════════════════════════════
