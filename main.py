@@ -232,6 +232,7 @@ ITEMS = [
     (62, "Rehab Monster Tea Orangeade", "AgACAgIAAxkBAAIG12rSjY2BtKg4Hp7hx-zc-fsiktYyAAImKGsb5y6QSqY4qpZkN8LeAQADAgADeQADPQQ", "rehab"),
     (63, "Monster Nitro Cosmic Peach", "AgACAgIAAxkBAAIG32rSjuHFycqdgDmASa69TyfvU2D_AAIrKGsb5y6QSoS9dZlvSTmrAQADAgADeQADPQQ", "nitro"),
     (64, "Monster Nitro blue flash", "AgACAgIAAxkBAAIG4WrSjwU5edP7nHi1gnNAu9ffTrhpAAIyKGsb5y6QSi60nKjGjBb_AQADAgADeQADPQQ", "nitro"),
+    (65, "Rehab Monster Tea Watermelon", "AgACAgIAAxkBAAIHAWrSmqvuLMFultOm4GA0AAHkGYINeQACbyhrG-cukEqID_xRo0GdZwEAAwIAA3gAAz0E", "rehab"),
 ]
 
 # ═══════════════════════════════════════════════════════════════
