@@ -142,6 +142,7 @@ DEFAULT_CATEGORIES = [
     ("rehab", 4, "cat_default_rehab"),
     ("java", 5, "cat_default_java"),
     ("collabs", 6, "cat_default_collabs"),
+    ("nitro", 7, "cat_default_nitro"),
 ]
 CATEGORY_SLUG_RE = re.compile(r"[a-z0-9_]{1,32}")
 CATALOG_CHUNK = 50   # кнопок в одном сообщении каталога (лимит Telegram — 100)
@@ -179,9 +180,9 @@ ITEMS = [
     (10, "Monster Energy Lo-Carb", "AgACAgIAAxkBAANDasy169KSvtMM9LAF-D2SYaQHVaAAAqclaxvFO2lK6lmlWm2qzJcBAAMCAAN5AAM9BA", "original"),
     (11, "Monster Reserve Orange Dreamsicle", "AgACAgIAAxkBAANXasy4dSwDtsP-MA8a-wzxKl9YL6QAAr8laxvFO2lKdBb_-34lbqEBAAMCAAN5AAM9BA", "original"),
     (12, "Monster Reserve Peaches n’ Crème", "AgACAgIAAxkBAANZasy4sJTC0qeMFOyPKXsWOFW57T4AAsAlaxvFO2lKM4qKvTEAAd1jAQADAgADeQADPQQ", "original"),
-    (13, "Monster Nitro Super Dry", "AgACAgIAAxkBAANbasy44OpeKvi9gnmvgefRjQ3mHiIAAsElaxvFO2lKbbizr0BSTtwBAAMCAAN5AAM9BA", "original"),
+    (13, "Monster Nitro Super Dry", "AgACAgIAAxkBAANbasy44OpeKvi9gnmvgefRjQ3mHiIAAsElaxvFO2lKbbizr0BSTtwBAAMCAAN5AAM9BA", "nitro"),
     (14, "Monster Super-Premium Import", "AgACAgIAAxkBAANdasy5FQdx8HHKjiZFhZUTsBfbaNEAAsUlaxvFO2lKhmMip9emwesBAAMCAAN5AAM9BA", "original"),
-    (15, "Monster Full Throttle Zero Sugar", "AgACAgIAAxkBAAID-GrP54QgqeMnfUjcC6iNuuv0OdEGAAJKIWsbKd2BStNjNEYp4BC3AQADAgADeQADPQQ", "original"),
+    (15, "Monster Full Throttle Zero Sugar", "AgACAgIAAxkBAAID-GrP54QgqeMnfUjcC6iNuuv0OdEGAAJKIWsbKd2BStNjNEYp4BC3AQADAgADeQADPQQ", "collabs"),
     (16, "Juice Monster Mango Loco", "AgACAgIAAxkBAAOIas3PekFv-9cg9vOcw6OCcyIspscAAqMhaxu5WmlK7BF5Hoj4FvQBAAMCAAN5AAM9BA", "juice"),
     (17, "Juice Monster Voodoo Grape", "AgACAgIAAxkBAAOKas3PryBrLnR5YSFWYs24VDn1zHQAAqchaxu5WmlKdTHLfETK6t0BAAMCAAN5AAM9BA", "juice"),
     (18, "Juice Monster Strawberry Lemonade", "AgACAgIAAxkBAAOMas3P3o4IjPIz6ushlO27EUd3DWsAAqohaxu5WmlK9PU6NhIcJm0BAAMCAAN5AAM9BA", "juice"),
@@ -225,6 +226,16 @@ ITEMS = [
     (56, "Juiced Monster Khaotic", "AgACAgIAAxkBAAIGF2rRMYFjtdPMCkEPtFPZ4jMkqrnTAAIYI2sbKd2JSkt3ZQHag6cSAQADAgADeQADPQQ", "juice"),
     (57, "Juiced Monster Mixxd Punch", "AgACAgIAAxkBAAIGGWrRMehxhvHXzl2DQOhjoRG_KyKiAAIiI2sbKd2JSjZ3byVEtiFjAQADAgADeQADPQQ", "juice"),
     (58, "Juiced Monster Ripper", "AgACAgIAAxkBAAIGG2rRMt_uGNe0Q_KHnUVEkNPtS-SsAAIlI2sbKd2JSkT6XfSu2qOjAQADAgADeQADPQQ", "juice"),
+    (59, "Rehab Monster Pink Lemonade", "AgACAgIAAxkBAAIGwmrSi2EGWAiXnmCveNSvc8xL6WIsAAIgKGsb5y6QSoMtLsqZO4g2AQADAgADeQADPQQ", "rehab"),
+    (60, "Rehab Monster Protean", "", "rehab"),
+    (61, "Rehab Monster Raspberry Tea", "", "rehab"),
+    (62, "Rehab Monster Rojo Tea", "AgACAgIAAxkBAAIGyWrSjMUoGzO4An_ZwES4e9lLa4vvAAIkKGsb5y6QSpLOniL5S-mwAQADAgADeQADPQQ", "rehab"),
+    (63, "Rehab Monster Strawberry Lemonade", "AgACAgIAAxkBAAIGy2rSjPVpctvijV2E2TFCDVALKZI3AAIlKGsb5y6QSsuF33ph6EJOAQADAgADeQADPQQ", "rehab"),
+    (64, "Rehab Monster Tea Orangeade", "AgACAgIAAxkBAAIG12rSjY2BtKg4Hp7hx-zc-fsiktYyAAImKGsb5y6QSqY4qpZkN8LeAQADAgADeQADPQQ", "rehab"),
+    (65, "Rehab Monster Tea Watermelon", "", "rehab"),
+    (66, "Rehab Monster White Dragon Tea", "", "rehab"),
+    (67, "Monster Nitro Cosmic Peach", "AgACAgIAAxkBAAIG32rSjuHFycqdgDmASa69TyfvU2D_AAIrKGsb5y6QSoS9dZlvSTmrAQADAgADeQADPQQ", "nitro"),
+    (68, "Monster Nitro blue flash", "AgACAgIAAxkBAAIG4WrSjwU5edP7nHi1gnNAu9ffTrhpAAIyKGsb5y6QSi60nKjGjBb_AQADAgADeQADPQQ", "nitro"),
 ]
 
 # ═══════════════════════════════════════════════════════════════
@@ -273,7 +284,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "photo_processing": "🔎 Распознаю банку…",
         "photo_not_found": "Не удалось найти эту банку в каталоге. Попробуй сфотографировать ближе и чётче или напиши название текстом.",
         "photo_error": "Не удалось распознать фото. Попробуй ещё раз чуть позже.",
-        "photo_busy": "⏳ Сервис распознавания сейчас перегружен. Попробуй ещё раз через минуту.",
+        "photo_busy": "⏳ Сервис распознавания сейчас перегружен. Попробуй ещё раз через минуту или найди по названию.",
         "photo_too_big": "Фото слишком большое. Пришлите снимок поменьше.",
         "photo_cooldown": "⏳ Подожди {seconds} с. и пришли фото снова.",
         "search_empty": "По запросу «{query}» ничего не найдено. Напишите другое название, отправьте фото или нажмите /cancel для выхода.",
@@ -340,7 +351,8 @@ LEXICON: dict[str, dict[str, str]] = {
         "cat_default_ultra": "Ultra",
         "cat_default_rehab": "Rehab",
         "cat_default_java": "Java",
-        "cat_default_collabs": "Коллаборации"
+        "cat_default_collabs": "Коллаборации",
+        "cat_default_nitro": "Nitro",
     },
     # ───────────────────────── Українська ─────────────────────────
     "uk": {
@@ -380,7 +392,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "photo_stub": "📸 Функція пошуку за фото в розробці!",
         "photo_processing": "🔎 Розпізнаю банку…",
         "photo_not_found": "Не вдалося знайти цю банку в каталозі. Спробуй сфотографувати ближче й чіткіше або напиши назву текстом.",
-        "photo_error": "Не вдалося розпізнати фото. Спробуй ще раз трохи пізніше.",
+        "photo_error": "Не вдалося розпізнати фото. Спробуй ще раз трохи пізніше або знайди за назвою.",
         "photo_busy": "⏳ Сервіс розпізнавання зараз перевантажений. Спробуй ще раз за хвилину.",
         "photo_too_big": "Фото занадто велике. Надішли знімок меншого розміру.",
         "photo_cooldown": "⏳ Зачекай {seconds} с. і надішли фото знову.",
@@ -449,6 +461,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "cat_default_rehab": "Rehab",
         "cat_default_java": "Java",
         "cat_default_collabs": "Колаборації",
+        "cat_default_nitro": "Nitro",
     },
     # ───────────────────────── English ─────────────────────────
     "en": {
@@ -488,7 +501,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "photo_stub": "📸 Photo search is under development!",
         "photo_processing": "🔎 Recognizing the can…",
         "photo_not_found": "Could not find this can in the catalog. Try a closer, sharper photo or type the name.",
-        "photo_error": "Could not recognize the photo. Please try again a bit later.",
+        "photo_error": "Could not recognize the photo. Please try again a bit later or search by a name.",
         "photo_busy": "⏳ The recognition service is overloaded right now. Please try again in a minute.",
         "photo_too_big": "The photo is too large. Please send a smaller one.",
         "photo_cooldown": "⏳ Please wait {seconds}s and send the photo again.",
@@ -557,6 +570,7 @@ LEXICON: dict[str, dict[str, str]] = {
         "cat_default_rehab": "Rehab",
         "cat_default_java": "Java",
         "cat_default_collabs": "Collabs",
+        "cat_default_nitro": "Nitro",
     },
 }
 
